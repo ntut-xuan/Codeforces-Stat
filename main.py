@@ -132,7 +132,7 @@ def getIndex():
         <text x="24" y="0" fill="{1_HandleColor}"> {1_Handle} </text>
     </g>
     <g class="photo" id="photo" data-testid="card-photo" transform="translate(25, 115)">
-        <image xlink:href="{Photo}"></image>
+        <image href="{Photo}"></image>
     </g>
     <g class="rateAndMaxRate" data-testid="card-title" transform="translate(350, 155)">
         <text x="0" y="0"> {Name}  </text>
