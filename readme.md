@@ -1,3 +1,3 @@
 # Codeforces Stat
 
-![Codeforces Stat]("https://codeforces-stat.herokuapp.com/?handle=Cylinder")
+![Codeforces Stat](https://codeforces-stat.herokuapp.com/?handle=Cylinder)
