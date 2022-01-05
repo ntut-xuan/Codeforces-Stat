@@ -132,7 +132,7 @@ def getIndex():
         <text x="24" y="0" fill="{1_HandleColor}"> {1_Handle} </text>
     </g>
     <g class="photo" id="photo" data-testid="card-photo" transform="translate(25, 115)">
-        <image xlink:href="./getPhoto?handle={Handle}"></image>
+        <image xlink:href="{Photo}"></image>
     </g>
     <g class="rateAndMaxRate" data-testid="card-title" transform="translate(350, 155)">
         <text x="0" y="0"> {Name}  </text>
@@ -200,6 +200,7 @@ def getIndex():
     s = s.replace("{Handle}", jsonData["result"][0]["handle"])
     s = s.replace("{FirstHandle}", jsonData["result"][0]["handle"][0])
     s = s.replace("{1_Handle}", jsonData["result"][0]["handle"][1:])
+    s = s.replace("{Photo}", jsonData["result"][0]["titlePhoto"])
 
     s = s.replace("{Name}", name_process(jsonData))
     s = s.replace("{Country_And_City}", country_city_process(jsonData))
