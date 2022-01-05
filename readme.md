@@ -1,3 +1,3 @@
 # Codeforces Stat
 
-![Cylinder's Codeforces Stat](https://codeforces-stat.herokuapp.com/?handle=Cylinder)
+<embed type="image/svg+xml" src="https://codeforces-stat.herokuapp.com/?handle=Cylinder" />
