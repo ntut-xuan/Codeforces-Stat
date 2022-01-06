@@ -95,7 +95,11 @@ def getIndex():
 	}
 	@font-face {
 	  font-family: "IBM Plex Mono Medium";
-	  src: url('./static/IBM Plex Mono Regular.ttf');
+	  src: url('./static/IBMPlexMono-Medium.ttf');
+	}
+	@font-face {
+	  font-family: "IBM Plex Mono Heavy";
+	  src: url('./static/IBMPlexMono-Bold.ttf');
 	}
         svg {
             background-color: rgb(250, 250, 250);
