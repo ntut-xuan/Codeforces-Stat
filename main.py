@@ -141,7 +141,7 @@ def getIndex():
     </g>
     <g class="title" data-testid="card-title" transform="translate(25, 95)">
         <text x="0" y="0" fill="{FirstHandleColor}"> {FirstHandle} </text>
-        <text x="24" y="0" fill="{1_HandleColor}"> {1_Handle} </text>
+        <text x="23" y="0" fill="{1_HandleColor}"> {1_Handle} </text>
     </g>
     <g class="photo" id="photo" data-testid="card-photo" transform="translate(25, 115)">
         <image href="{Photo}"></image>
