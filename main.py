@@ -88,6 +88,14 @@ def getIndex():
     
 
     s = """<svg width="900" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+	  <style type="text/css">
+		@font-face {
+		  font-family: Open 24 Display St;
+		  src: url('./static/Open 24 Display St.ttf');
+		}
+	  </style>
+	</defs>
     <style>
         svg {
             background-color: rgb(250, 250, 250);
